@@ -2,27 +2,27 @@
 
 public class PhotoAlbum
 {
-    private int countPhotos;
-    private int photosPerPage = 6;
+    private int _countPhotos;
+    private int _photosPerPage = 6;
 
     public PhotoAlbum()
     {
-        countPhotos = 16;
+        _countPhotos = 16;
     }
 
     public PhotoAlbum(int photosCount)
     {
-        countPhotos = photosCount;
+        _countPhotos = photosCount;
     }
 
     public int GetCountPhotos()
     {
-        return countPhotos;
+        return _countPhotos;
     }
 
     public int GetCountPages()
     {
-        return (countPhotos + photosPerPage - 1) / photosPerPage;
+        return (_countPhotos + _photosPerPage - 1) / _photosPerPage;
     }
 }
 
