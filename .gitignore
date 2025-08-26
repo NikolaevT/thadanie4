@@ -1,0 +1,75 @@
+# Общие системные файлы
+Thumbs.db
+.DS_Store
+
+# Файлы сборки и выполнения
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# Файлы пользовательских настроек
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Файлы пакетов NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Файлы резервных копий
+*.backup
+*.bak
+
+# Файлы журналов
+*.log
+
+# Файлы операционной системы
+[Tt]humbs.db
+$RECYCLE.BIN/
+
+# Файлы Visual Studio
+.vs/
+*.swp
+*.[Cc]ache/
+*.ilk
+*.meta
+*.obj
+*.opensdf
+*.pch
+*.pidb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Файлы ReSharper
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Файлы покрытия тестов
+coverage.xml
+*.coverage
+*.coveragexml
+
+# Файлы публикации
+publish/
+
+# JetBrains IDEA
+.idea/
